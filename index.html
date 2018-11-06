@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Sorteio Crazy</title>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">      
+      <link rel = "stylesheet"
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel = "stylesheet"
+         href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+      <script type = "text/javascript"
+         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+      </script> 
+      <style>
+          portfolio .col
+{
+	margin-bottom: 24px;
+}
+
+.portfolio h5
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.portfolio h6
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.portfolio hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
+
+.portfolio .portfolio-holder
+{
+	clear: both;
+	text-align: center;
+}
+
+.portfolio img
+{
+	width: 33%;
+	display: inline-block;
+	float: left;
+}
+
+      </style>
+   </head>
+   
+   <body class = "container"> 
+      <h2 class="center">Sorteio</h2>
+      <hr/>
+      
+      <div class="row">
+            <div class = "col s12 m12 card-panel center">
+                <img src="img/sorteio.png" height="300" width="200" id="imagemSorteada">
+            </div>
+           
+                      
+      </div>
+      <div class="col s12 center">
+          <span class="center">
+            <button class="btn waves-effect waves-light " type="button" id="btnSortear">Sorteiar</button>
+            <button class="btn waves-effect waves-light " type="button" id="btnLimpar">Limpar Histórico E Reinicia</button>
+          </span>
+      </div>
+      <br>
+      <div class="container portfolio">
+            <h5>Histórico</h5>
+            
+            <hr>
+            <div class="row">
+              <div class="col s12 m12 l12 portfolio-holder" id="historico">
+                <!-- <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
+                <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
+                <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
+                <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
+                <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
+                <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png"> -->
+              </div>
+            </div>
+          </div>
+    
+   </body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="script/script.js"></script>
+</html>
